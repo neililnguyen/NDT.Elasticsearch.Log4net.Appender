@@ -38,7 +38,7 @@ Tutorial:
       	
             [assembly: log4net.Config.XmlConfigurator(Watch = true)]
     
-b. netCore:
+b. NetCore:
     
   - Create log4net.config:
      
