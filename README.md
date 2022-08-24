@@ -72,5 +72,8 @@ b. NetCore:
 
   - Logging.log.Info("Your message hear");
   - Logging.log.Info(JsonConvert.SerializeObject(object)); //Install Newtonsoft.Json to use it
-       
+
+4. Bonus:
+ - For Vietnamese: [ELK_dotNET_NDT.docx](https://github.com/neililnguyen/NDT.Elasticsearch.Log4net.Appender/files/9418041/ELK_dotNET_NDT.docx)
+
        
