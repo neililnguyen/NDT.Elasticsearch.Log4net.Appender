@@ -9,7 +9,7 @@ Tutorial:
   1. Install package: Install-Package NDT.Elasticsearch.Log4net.Appender -Version 1.0.0
   
   2. Config:
-    a. .netFramework:
+    a. netFramework:
       - In Web.config
       
       <configSections>
@@ -38,7 +38,7 @@ Tutorial:
      - In AssemblyInfo.cs
       	[assembly: log4net.Config.XmlConfigurator(Watch = true)]
     
-    b. .netCore:
+    b. netCore:
      - Create log4net.config:
        <log4net>
           <appender name="elasticappender" type="demo_lib_log4net_appender.Appender.UsexpressAppender, demo_lib_log4net_appender">
