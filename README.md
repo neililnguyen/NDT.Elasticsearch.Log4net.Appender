@@ -11,6 +11,7 @@ Tutorial:
   2. Config:
     a. .netFramework:
       - In Web.config
+      
       <configSections>
         <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" />
       </configSections>
